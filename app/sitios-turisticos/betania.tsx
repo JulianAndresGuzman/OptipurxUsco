@@ -6,8 +6,8 @@ import MapView, { Marker } from 'react-native-maps';
 export default function BetaniaDetails() {
   const router = useRouter();
 
-  const latitude = 2.9370;    // aproxima — corrige si tienes coordenadas exactas
-  const longitude = -75.4500;
+  const latitude = 2.685;    //Ubicación
+  const longitude = -75.44;
 
   return (
     <ScrollView style={styles.container}>

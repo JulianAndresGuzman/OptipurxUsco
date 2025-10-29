@@ -6,8 +6,8 @@ import MapView, { Marker } from 'react-native-maps';
 export default function NevadoDetails() {
   const router = useRouter();
 
-  const latitude = 2.8930;   // aproximado
-  const longitude = -76.0580;
+  const latitude = 2.917;   // Ubicación
+  const longitude = -76.05;
 
   return (
     <ScrollView style={styles.container}>

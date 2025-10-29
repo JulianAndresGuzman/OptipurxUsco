@@ -6,8 +6,8 @@ import MapView, { Marker } from 'react-native-maps';
 export default function TermalesRivera() {
   const router = useRouter();
 
-  const latitude = 2.6120; // aproximado
-  const longitude = -75.6620;
+  const latitude = 2.7566; // Ubicación
+  const longitude = -75.23774;
 
   return (
     <ScrollView style={styles.container}>

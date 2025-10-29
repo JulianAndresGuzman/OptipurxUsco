@@ -6,8 +6,8 @@ import MapView, { Marker } from 'react-native-maps';
 export default function ManoGigante() {
   const router = useRouter();
 
-  const latitude = 2.8500; // aproximado
-  const longitude = -75.2500;
+  const latitude = 2.41761; // Ubicación
+  const longitude = -75.49358;
 
   return (
     <ScrollView style={styles.container}>

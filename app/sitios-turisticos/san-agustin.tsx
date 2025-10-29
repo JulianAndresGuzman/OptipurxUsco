@@ -6,8 +6,8 @@ import MapView, { Marker } from 'react-native-maps';
 export default function SanAgustinDetails() {
   const router = useRouter();
 
-  const latitude = 1.9161;
-  const longitude = -76.2395;
+  const latitude = 1.87917; //Ubicación
+  const longitude = -76.26833;
 
   return (
     <ScrollView style={styles.container}>

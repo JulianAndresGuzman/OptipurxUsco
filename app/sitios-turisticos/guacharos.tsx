@@ -6,8 +6,8 @@ import MapView, { Marker } from 'react-native-maps';
 export default function GuacharosDetails() {
   const router = useRouter();
 
-  const latitude = 1.9830; // aproximado
-  const longitude = -76.0830;
+  const latitude = 1.367; // Ubicación
+  const longitude = -76.225;
 
   return (
     <ScrollView style={styles.container}>
