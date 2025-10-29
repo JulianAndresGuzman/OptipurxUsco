@@ -3,23 +3,26 @@ import React from 'react';
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 
-export default function HotelAndino() {
+export default function hotelTatacoa() {
   const router = useRouter();
 
-  const latitude = 2.9400;
-  const longitude = -75.2900;
+  const latitude = 3.228011123290611;
+  const longitude = -75.21358676142304;
 
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.title}>Hotel Andino</Text>
+      <Text style={styles.title}>Hotel Cosmos Tatacoa</Text>
 
       <Image
-        source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Hotel.jpg' }}
+        source={require("../img/tatacoa-hotel-img.webp")}
         style={styles.image}
       />
 
       <Text style={styles.description}>
-        Hotel de ejemplo, cambiar información por una real, tovar, y añadir más hoteles.
+       Cosmos Tatacoa Hotel tiene piscina al aire libre, jardín, salón de uso común y terraza en Villavieja.
+       Este alojamiento ofrece restaurante, servicio de habitaciones y recepción 24 horas,
+       además de wifi gratis en todo el alojamiento.
+       la cafetería es ideal para tomar algo.
       </Text>
 
       <View style={styles.mapContainer}>

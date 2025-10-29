@@ -95,14 +95,54 @@ export default function HomeScreen() {
 
     // Hoteles
     {
-      id: "hotelandino",
-      title: "Hotel Andino",
-      description: "Alojamiento en el centro de Neiva",
-      latitude: 2.94,
-      longitude: -75.29,
+      id: "cosmosTatacoa",
+      title: "Hotel Cosmos Tatacoa",
+      description: "Alojamiento cerca del desierto de la tatacoa",
+      latitude: 3.228011123290611,
+      longitude: -75.21358676142304,
       color: "#FFD700",
       type: "hotel",
-      route: "/hoteles/hotel-andino",
+      route: "/hoteles/hotel-tatacoa",
+    },
+    {
+      id: "hotelSanAgustin",
+      title: "Hotel Terrazas de San Agustín",
+      description: "Alojamiento cerca del parque turistico de San Agustín",
+      latitude: 1.8902648938843107,
+      longitude: -76.27276587975831,
+      color: "#FFD700",
+      type: "hotel",
+      route: "/hoteles/hotel-san-agustin"
+    },
+    {
+      id: "hotelBetania",
+      title: "Hotel El Lago Resort",
+      description: "Alojamiento cerca de la represa de Betania",
+      latitude: 2.6638554472367595,
+      longitude: -75.51706233067632,
+      color: "#FFD700",
+      type: "hotel",
+      route: "/hoteles/hotel-betania"
+    },
+    {
+      id: "hotelGuacharos",
+      title: "Hotel Palestina Huila Los Guacharos",
+      description: "Alojamiento cerca de La cueva de los guacharos",
+      latitude: 1.7279104797490288,
+      longitude: -76.13192836878434,
+      color: "#FFD700",
+      type: "hotel",
+      route: "/hoteles/hotel-los-guacharos",
+    },
+    {
+      id: "hotelManoGigante",
+      title: "Hotel Bio habitat Entre Montañas",
+      description: "Alojamiento en Gigante bueno |cerca| de la mano de gigante",
+      latitude: 2.443014438415437,
+      longitude: -75.48693974558394,
+      color: "#FFD700",
+      type: "hotel",
+      route: "/hoteles/hotel-mano-gigante",
     },
   ];
 
