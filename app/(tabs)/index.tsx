@@ -211,13 +211,15 @@ export default function HomeScreen() {
                 <Text style={styles.cardTitle}>{place.title}</Text>
                 <Text style={styles.cardDesc}>{place.description}</Text>
 
-                {/* Botón "Ver más" */}
-                <TouchableOpacity
-                  style={styles.cardButton}
-                  onPress={() => router.push(place.route)}
-                >
                   <Text style={styles.cardButtonText}>Ver más →</Text>
                 </TouchableOpacity>
+                
+                 {/* Botón "Ver más" */}
+                     <TouchableOpacity
+                      style={styles.cardButton}
+                       onPress={() => router.push(place.route)}
+>
+ 
 
                 {/* Cerrar tarjeta */}
                 <TouchableOpacity
