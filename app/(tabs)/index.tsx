@@ -205,7 +205,7 @@ export default function HomeScreen() {
     },
   ];
 
-  // 🔍 Filtro activo
+  // Filtro activo
   const filteredPlaces = filter === "all" ? places : places.filter((p) => p.type === filter);
 
   return (
@@ -240,7 +240,7 @@ export default function HomeScreen() {
         </View>
       </View>
 
-      {/* 🗺️ Mapa */}
+      {/*Mapa */}
       <MapView
         style={styles.map}
         initialRegion={{
@@ -260,7 +260,7 @@ export default function HomeScreen() {
         ))}
       </MapView>
 
-      {/* 🧾 Tarjeta flotante */}
+      {/*Tarjeta flotante */}
       {selectedPlace && (
         <View style={styles.infoCard}>
           {(() => {
