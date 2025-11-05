@@ -14,7 +14,7 @@ export default function restauranteChibchili() {
       <Text style={styles.title}>Chibchili</Text>
 
       <Image
-        source={require("../img/restaurante-chibchili-img.jpg")}
+        source={require("../restaurantes/assets/img/cafe.png")}
         style={styles.image}
       />
 

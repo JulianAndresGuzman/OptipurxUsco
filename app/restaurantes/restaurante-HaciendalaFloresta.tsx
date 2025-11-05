@@ -3,6 +3,10 @@ import React from 'react';
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 
+export const unstable_settings = {
+  headerShown: false,
+}; 
+
 export default function restauranteHaciendaLaFloresta() {
   const router = useRouter();
 

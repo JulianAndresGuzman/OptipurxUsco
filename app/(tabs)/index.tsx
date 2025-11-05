@@ -8,6 +8,9 @@ export default function HomeScreen() {
   const [selectedPlace, setSelectedPlace] = useState<string | null>(null);
   const [filter, setFilter] = useState<"all" | "restaurant" | "hotel" | "tourist">("all");
 
+
+
+  //arreglo de diccionarios donde están todos los datos de los pines para luego ser filtrados y poder redireccionarlos en las otras pantallas o como se diga eso jaa
   const places = [
     // Sitios turísticos
     {
@@ -210,7 +213,7 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      {/* Encabezado tipo "OPITUR" */}
+      {/* Headerr "OPITUR" */}
       <View style={styles.header}>
         <Text style={styles.title}>OPITUR</Text>
         <View style={styles.buttonsContainer}>
@@ -260,7 +263,7 @@ export default function HomeScreen() {
         ))}
       </MapView>
 
-      {/*Tarjeta flotante */}
+      {/*Tarheta flotante */}
       {selectedPlace && (
         <View style={styles.infoCard}>
           {(() => {

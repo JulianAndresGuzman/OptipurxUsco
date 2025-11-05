@@ -14,7 +14,7 @@ export default function restauranteElPatio() {
       <Text style={styles.title}>Restaurante El Patio</Text>
 
       <Image
-        source={require("../img/restaurante-elpatio-img.jpg")}
+        source={require("../img/restaurante-elpatio-img.png")}
         style={styles.image}
       />
 

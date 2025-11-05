@@ -19,7 +19,7 @@ export default function restauranteAvenida() {
       />
 
       <Text style={styles.description}>
-        Otro restaurante de ejemplo, también colocar información exacta y modificar la latitud y longitud y cambiar la imagen
+        El Restaurante Avenida es un lugar tradicional en Neiva, conocido por su deliciosa comida típica colombiana y un ambiente familiar. Ofrece una amplia variedad de platos caseros, ideales para quienes desean disfrutar de sabores locales a buen precio.
       </Text>
 
       <View style={styles.mapContainer}>
