@@ -14,9 +14,8 @@ export default function restauranteLaPlantaTatacoa() {
       <Text style={styles.title}>La Planta Brew Pub Tatacoa</Text>
 
       <Image
-        source={{
-          uri: 'https://media-cdn.tripadvisor.com/media/photo-s/0e/a3/30/0a/el-patio.jpg', // Reemplaza con una imagen real del restaurante si tienes otra
-        }}
+        source={{ source={require("../img/cafe.png-img.webp")},
+
         style={styles.image}
       />
 
