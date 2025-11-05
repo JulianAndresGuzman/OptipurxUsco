@@ -11,6 +11,7 @@ export default function BetaniaDetails() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Embalse de Betania</Text>
 
       <Image

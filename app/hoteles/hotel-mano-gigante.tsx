@@ -11,6 +11,7 @@ export default function hotelManoGigante() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Hotel Bio habitat Entre Montañas</Text>
 
       <Image

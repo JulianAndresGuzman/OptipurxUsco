@@ -11,6 +11,7 @@ export default function restauranteElPatio() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Restaurante El Patio</Text>
 
       <Image

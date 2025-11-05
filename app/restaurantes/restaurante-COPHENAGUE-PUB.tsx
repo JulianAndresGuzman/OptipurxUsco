@@ -11,6 +11,7 @@ export default function restauranteCopenhaguePub() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Copenhague Pub</Text>
 
       <Image

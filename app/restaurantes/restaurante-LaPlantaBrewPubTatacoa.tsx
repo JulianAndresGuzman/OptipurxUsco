@@ -11,6 +11,7 @@ export default function restauranteLaPlantaTatacoa() {
 
   return (
     <ScrollView style={styles.container}>
+      <Text style={styles.description}> </Text> {/*Esto es para el espacio en blanco para que no tape la barra de notificaciones*/}
       <Text style={styles.title}>La Planta Brew Pub Tatacoa</Text>
 
       <Image

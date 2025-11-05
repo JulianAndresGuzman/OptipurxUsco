@@ -11,6 +11,7 @@ export default function hotelSanAgustin() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />      
       <Text style={styles.title}>Hotel Terrazas de San Agustín</Text>
 
       <Image

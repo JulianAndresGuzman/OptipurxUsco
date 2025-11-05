@@ -213,10 +213,13 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
+
       {/* Headerr "OPITUR" */}
       <View style={styles.header}>
         <Text style={styles.title}>OPITUR</Text>
         <View style={styles.buttonsContainer}>
+
+
           {/* Botón restaurantes */}
           <TouchableOpacity
             style={[styles.circleButton, filter === "restaurant" && styles.activeButton]}
@@ -224,6 +227,7 @@ export default function HomeScreen() {
           >
             <Text style={styles.emoji}>🍴</Text>
           </TouchableOpacity>
+
 
           {/* Botón hoteles */}
           <TouchableOpacity

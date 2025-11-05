@@ -11,6 +11,7 @@ export default function GuacharosDetails() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Parque Cueva de los Guácharos</Text>
 
       <Image

@@ -11,6 +11,7 @@ export default function TermalesRivera() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Termales de Rivera</Text>
 
       <Image

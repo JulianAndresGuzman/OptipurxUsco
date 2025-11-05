@@ -11,6 +11,7 @@ export default function ManoGigante() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Mirador La Mano del Gigante</Text>
 
       <Image

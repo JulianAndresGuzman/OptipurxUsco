@@ -11,6 +11,7 @@ export default function restauranteChibchili() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Chibchili</Text>
 
       <Image

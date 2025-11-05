@@ -11,6 +11,7 @@ export default function NevadoDetails() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Nevado del Huila</Text>
 
       <Image

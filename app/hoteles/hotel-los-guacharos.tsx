@@ -10,7 +10,11 @@ export default function hotelGuacharos() {
   const longitude = -76.13192836878434;
 
   return (
+    
+    
     <ScrollView style={styles.container}>
+
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Hotel Los Guacharos</Text>
 
       <Image

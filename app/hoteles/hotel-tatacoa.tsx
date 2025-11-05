@@ -11,6 +11,7 @@ export default function hotelTatacoa() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Hotel Cosmos Tatacoa</Text>
 
       <Image

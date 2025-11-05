@@ -3,14 +3,17 @@ import React from 'react';
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 
-export default function hotelSanAgustin() {
+export default function hotelLagoResort() {
   const router = useRouter();
 
   const latitude = 2.6638554472367595;
   const longitude = -75.51706233067632;
 
   return (
+
+
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Hotel El Lago Resort</Text>
 
       <Image

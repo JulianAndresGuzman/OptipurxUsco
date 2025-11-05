@@ -11,6 +11,7 @@ export default function DesiertoTatacoa() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Desierto De la tatacoa</Text>
 
       <Image

@@ -11,6 +11,7 @@ export default function SanAgustinDetails() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Parque Arqueológico de San Agustín</Text>
 
       <Image

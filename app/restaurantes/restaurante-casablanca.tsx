@@ -11,6 +11,7 @@ export default function restauranteCasaBlancaParrillaMoas() {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={{ height: 35 }} />
       <Text style={styles.title}>Casa Blanca La Parrilla de Moas</Text>
 
       <Image
