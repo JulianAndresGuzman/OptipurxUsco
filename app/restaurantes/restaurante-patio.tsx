@@ -14,9 +14,8 @@ export default function restauranteElPatio() {
       <Text style={styles.title}>Restaurante El Patio</Text>
 
       <Image
-        source={{
-          uri: 'https://media-cdn.tripadvisor.com/media/photo-s/0e/a3/30/0a/el-patio.jpg',
-        }}
+        source={require("../img/patio.png-img.webp")}
+    
         style={styles.image}
       />
 
