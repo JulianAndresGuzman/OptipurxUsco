@@ -14,9 +14,7 @@ export default function restauranteHaciendaLaFloresta() {
       <Text style={styles.title}>Hacienda La Floresta</Text>
 
       <Image
-        source={{
-          uri: 'https://media-cdn.tripadvisor.com/media/photo-s/0e/a3/30/0a/el-patio.jpg', // Reemplaza con una imagen real de Hacienda La Floresta
-        }}
+        source={require("../img/restaurante-haciendalafloresta-img.jpg")}
         style={styles.image}
       />
 

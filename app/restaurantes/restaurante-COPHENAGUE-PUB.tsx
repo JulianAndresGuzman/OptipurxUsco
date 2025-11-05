@@ -14,9 +14,7 @@ export default function restauranteCopenhaguePub() {
       <Text style={styles.title}>Copenhague Pub</Text>
 
       <Image
-        source={{
-          uri: 'https://media-cdn.tripadvisor.com/media/photo-s/0e/a3/30/0a/el-patio.jpg', // Reemplaza con una imagen real del restaurante Copenhague Pub
-        }}
+        source={require("../img/restaurante-copenhague-img.jpg")}
         style={styles.image}
       />
 

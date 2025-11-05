@@ -14,9 +14,7 @@ export default function restauranteCasaBlancaParrillaMoas() {
       <Text style={styles.title}>Casa Blanca La Parrilla de Moas</Text>
 
       <Image
-        source={{
-          uri: 'https://media-cdn.tripadvisor.com/media/photo-s/10/xx/xx/xx/casa-blanca-la-parrilla-de-moas.jpg', // Reemplaza por una imagen real tomada del restaurante
-        }}
+        source={require("../img/restaurante-casablanca-img.jpg")}
         style={styles.image}
       />
 

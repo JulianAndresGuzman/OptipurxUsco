@@ -14,9 +14,7 @@ export default function restauranteChibchili() {
       <Text style={styles.title}>Chibchili</Text>
 
       <Image
-        source={{
-          uri: 'https://media-cdn.tripadvisor.com/media/photo-s/0e/a3/30/0a/chibchili-rivera.jpg', // Reemplaza con una imagen real del restaurante si la obtienes
-        }}
+        source={require("../img/restaurante-chibchili-img.jpg")}
         style={styles.image}
       />
 

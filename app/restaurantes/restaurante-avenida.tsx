@@ -14,7 +14,7 @@ export default function restauranteAvenida() {
       <Text style={styles.title}>Restaurante Avenida</Text>
 
       <Image
-        source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Hotel.jpg' }}
+        source={require("../img/restaurante-avenida-img.jpg")}
         style={styles.image}
       />
 

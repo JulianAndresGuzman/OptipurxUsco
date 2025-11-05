@@ -14,8 +14,7 @@ export default function restauranteLaPlantaTatacoa() {
       <Text style={styles.title}>La Planta Brew Pub Tatacoa</Text>
 
       <Image
-        source={{ source={require("../img/cafe.png-img.webp")},
-
+        source={require("../img/restaurante-laplantabrewpub-img.jpg")}
         style={styles.image}
       />
 
