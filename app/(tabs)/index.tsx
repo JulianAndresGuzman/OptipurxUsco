@@ -8,9 +8,6 @@ export default function HomeScreen() {
   const [selectedPlace, setSelectedPlace] = useState<string | null>(null);
   const [filter, setFilter] = useState<"all" | "restaurant" | "hotel" | "tourist">("all");
 
-
-
-  //arreglo de diccionarios donde están todos los datos de los pines para luego ser filtrados y poder redireccionarlos en las otras pantallas o como se diga eso jaa
   const places = [
     // Sitios turísticos
     {
@@ -95,66 +92,7 @@ export default function HomeScreen() {
       type: "restaurant",
       route: "/restaurantes/restaurante-avenida",
     },
-    {
-      id: "restaurante-casa-blanca",
-      title: "Restaurante Casa Blanca",
-      description: "¿Qué te parece si disfrutas tu día con uno de nuestros platos preferidos por todos? Nuestro Equipo de trabajo esta listo para brindarte la mejor atención de toda la ciudad",
-      latitude: 1.8930,
-      longitude: -76.2540,
-      color: "#3B82F6",
-      type: "restaurant",
-      route: "/restaurantes/restaurante-casablanca",
-    },
-     {
-      id: "restaurante-chibchili",
-      title: "Restaurante Chibchili",
-      description: "Chibchili, ubicado en Rivera, Huila, es un restaurante que ofrece una experiencia gastronómica con platos tradicionales mexicanos en un ambiente acogedor.",
-      latitude: 2.77717,
-      longitude: -75.25642,
-      color: "#3B82F6",
-      type: "restaurant",
-      route: "/restaurantes/restaurante-chibchili",
-    },
-    {
-      id: "restaurante-Copenhague-Pub",
-      title: "Restaurante Copenhague Pub",
-      description: "Copenhague Pub es un bar-restaurante en Neiva",
-      latitude: 2.9300,
-      longitude: -75.2890,
-      color: "#3B82F6",
-      type: "restaurant",
-      route: "/restaurantes/restaurante-COPHENAGUE-PUB",
-    },
-        {
-      id: "restaurante-Hacienda-la-floresta",
-      title: "Restaurante Hacienda la floresta",
-      description: "Hacienda La Floresta, ubicada en Garzón, Huila, es un restaurante campestre que combina una casona bicentenaria con jardines",
-      latitude: 2.6410,
-      longitude: -75.5620,
-      color: "#3B82F6",
-      type: "restaurant",
-      route: "/restaurantes/restaurante-HaciendalaFloresta",
-    },
-        {
-      id: "restaurante-la-planta-tatacoa",
-      title: "Restaurante La Planta Brew Pub Tatacoa",
-      description: "Es una cervecería-pub artesanal donde puedes disfrutar de cerveza hecha allí mismo, un ambiente relajado",
-      latitude: 3.2186,
-      longitude: -75.2152,
-      color: "#3B82F6",
-      type: "restaurant",
-      route: "/restaurantes/restaurante-LaPlantaBrewPubTatacoa",
-    },
-            {
-      id: "restaurante-patio",
-      title: "Restaurante El Patio",
-      description: "El Patio es un restaurante acogedor en Neiva, Huila, reconocido por su ambiente tranquilo y su deliciosa oferta gastronómica que combina platos típicos colombianos con opciones internacionales. ",
-      latitude: 2.9369,
-      longitude: -75.2894,
-      color: "#3B82F6",
-      type: "restaurant",
-      route: "/restaurantes/restaurante-patio",
-    },
+
     // Hoteles
     {
       id: "cosmosTatacoa",
@@ -208,18 +146,15 @@ export default function HomeScreen() {
     },
   ];
 
-  // Filtro activo
+  // 🔍 Filtro activo
   const filteredPlaces = filter === "all" ? places : places.filter((p) => p.type === filter);
 
   return (
     <View style={styles.container}>
-
-      {/* Headerr "OPITUR" */}
+      {/* Encabezado tipo "OPITUR" */}
       <View style={styles.header}>
         <Text style={styles.title}>OPITUR</Text>
         <View style={styles.buttonsContainer}>
-
-
           {/* Botón restaurantes */}
           <TouchableOpacity
             style={[styles.circleButton, filter === "restaurant" && styles.activeButton]}
@@ -227,7 +162,6 @@ export default function HomeScreen() {
           >
             <Text style={styles.emoji}>🍴</Text>
           </TouchableOpacity>
-
 
           {/* Botón hoteles */}
           <TouchableOpacity
@@ -247,7 +181,7 @@ export default function HomeScreen() {
         </View>
       </View>
 
-      {/*Mapa */}
+      {/* 🗺️ Mapa */}
       <MapView
         style={styles.map}
         initialRegion={{
@@ -267,7 +201,7 @@ export default function HomeScreen() {
         ))}
       </MapView>
 
-      {/*Tarheta flotante */}
+      {/* 🧾 Tarjeta flotante */}
       {selectedPlace && (
         <View style={styles.infoCard}>
           {(() => {
